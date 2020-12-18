@@ -1,0 +1,33 @@
+.q {
+  display: flex;
+  flex-direction: column;
+  border-bottom: solid rgb(6, 176, 255);
+}
+
+label {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+button {
+  margin-top: 1.5rem;
+}
+
+.q {
+  margin-top: 1.5rem;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    font-size: 24px;
+    background: none;
+    border-radius: 5px;
+    border: solid rgb(6, 176, 255);
+}
+
+.invisible {
+  display: none;
+}

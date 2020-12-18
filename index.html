@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <form class="quiz">
+      <h1>Quiz</h1>
+
+      <div class="q">
+        <p>Lorem ipsum dolor sit amet?</p>
+        <label> <input name="q1" type="radio" value="0" checked /> erhf </label>
+        <label> <input name="q1" type="radio" value="1" /> dsfsg </label>
+        <label> <input name="q1" type="radio" value="0" /> wefrhhre </label>
+      </div>
+
+      <div class="q">
+        <p>Lorem ipsum dolor sit amet?</p>
+        <label> <input name="q2" type="radio" value="0" checked /> erhf </label>
+        <label> <input name="q2" type="radio" value="0" /> dsfsg </label>
+        <label> <input name="q2" type="radio" value="0" /> wefrhhre </label>
+        <label> <input name="q2" type="radio" value="1" /> wrtje </label>
+      </div>
+
+      <div class="q">
+        <p>Lorem ipsum dolor sit amet?</p>
+        <label> <input name="q3" type="radio" value="0" checked /> erhf </label>
+        <label> <input name="q3" type="radio" value="0" /> dsfsg </label>
+        <label> <input name="q3" type="radio" value="0" /> fgh </label>
+        <label> <input name="q3" type="radio" value="1" /> fgnfnge </label>
+      </div>
+
+      <div class="q">
+        <p>Lorem ipsum dolor sit amet?</p>
+        <label> <input name="q4" type="radio" value="1" checked /> erhf </label>
+        <label> <input name="q4" type="radio" value="0" /> dsfsg </label>
+        <label> <input name="q4" type="radio" value="0" /> wefrhhre </label>
+        <label> <input name="q4" type="radio" value="0" /> weiooep </label>
+      </div>
+      <button type="button" onclick="submitQ()">Check results</button>
+    </form>
+
+    <div class="result invisible">
+      <h2>You have <span class="answers-correct">0</span> correct answer(s)</h2>
+      <button type="button" onclick="resetQ()">Redo test</button>
+    </div>
+  </body>
+</html>
